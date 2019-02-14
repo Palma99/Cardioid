@@ -40,9 +40,9 @@ function draw() {
             //              first color                   second color
             //                  |                              |
             //                  V                              V
-            map(rad, 0, 2 * PI, 0, map(rad, 0, 2 * PI, 0, 255)),
+            map(rad, 0, 2 * PI, 0, map(rad, 0, 2 * PI, 0,     255)),
             map(rad, 0, 2 * PI, 100, map(rad, 0, 2 * PI, 255, 0)),
-            map(rad, 0, 2 * PI, 255, map(rad, 0, 2 * PI, 0, 255))
+            map(rad, 0, 2 * PI, 255, map(rad, 0, 2 * PI, 0,   255))
         );
         line(x, y, x2, y2);
     }
